@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+  height: 90vh;
+  margin: 5vh 2vw 5vh 2vw;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+input {
+  max-width: 500px;
+}
+
+.nav {
+  display: block;
+  padding: 1em;
+  outline-style: none;
+}
+  .nav:hover {
+    background-color: thistle;
+    border-radius: 1em;
+  }
+
+.header {
+  background-color: gainsboro;
+  display: flex;
+  justify-content: space-around;
+  padding: 4vh 4vw 4vh 4vw;
+}
+  .title {
+    font-size: 16px;
+    font-style: unset;
+    padding: 1em;
+  }
+
+  .log {
+    display: block;
+    outline-style: none;
+    cursor: pointer;
+    padding: 1em;
+  }
+    .log:hover {
+      background-color: thistle;
+      border-radius: 1em;
+    }
+
+.navbar {
+  display: flex;
+}
+
+.background-gray {
+  background-color: rgb(246,246,239);
+}
+
+.f11 {
+  font-size: 12px;
+}
+
+.w85 {
+  width: 85%;
+}
+
+.upvote {
+  cursor: pointer;
+  padding: 1em;
+}
+
+.margin {
+  margin-top: 1em;
+  padding: 1em;
+  border-bottom-right-radius: 5em;
+}
+  .margin:hover {
+    background-color: thistle;
+  }
+
+.footerBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pagination {
+  padding: 1em;
+  margin: 1em;
+  cursor: pointer;
+  border-radius: 1em;
+}
+  .pagination:hover {
+    background-color: thistle;
+  }
