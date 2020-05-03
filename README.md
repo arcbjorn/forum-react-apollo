@@ -3,7 +3,7 @@
 ### 1. Clone repository
 
 ```sh
-git clone https://github.com/arcbjorn/forum-react-apollo
+git clone https://github.com/arcbjorn/react-apollo-forum
 ```
 
 ### 2. Install dependencies & Deploy the Prisma database API
